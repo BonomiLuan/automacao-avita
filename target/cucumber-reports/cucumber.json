@@ -1,0 +1,89 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-13T11:37:19.881Z",
+        "line": 14,
+        "name": "Acessar o site e baixar as fotos dele",
+        "description": "",
+        "id": "baixar-as-fotos-do-site;acessar-o-site-e-baixar-as-fotos-dele",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6505341600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que estou no site da Avita",
+            "match": {
+              "location": "step.AcessarSiteStep.acessarSite()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 113666800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "fechar o aviso do covid",
+            "match": {
+              "location": "step.FecharAvisoStep.acessarSite()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 35257321400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "seleciono morada morumbi",
+            "match": {
+              "location": "step.SelecionarMoradaMorumbiStep.selecionarMoradaMorumbi()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 10647648200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "fecho navegador",
+            "match": {
+              "location": "step.FecharNavegadorStep.fecharNavegador()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BaixarFotos"
+          },
+          {
+            "name": "@AcessarMoradaMorumbi"
+          }
+        ]
+      }
+    ],
+    "name": "Baixar as fotos do site",
+    "description": "",
+    "id": "baixar-as-fotos-do-site",
+    "keyword": "Funcionalidade",
+    "uri": "classpath:feature/BaixarFotos.feature",
+    "tags": [
+      {
+        "name": "@BaixarFotos",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
