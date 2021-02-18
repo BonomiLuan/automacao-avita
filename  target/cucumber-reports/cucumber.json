@@ -1,34 +1,40 @@
 [
   {
-    "line": 5,
+    "line": 4,
     "elements": [
       {
-        "start_timestamp": "2021-01-13T12:07:24.254Z",
-        "line": 14,
+        "start_timestamp": "2021-02-18T10:54:26.084Z",
+        "line": 21,
         "name": "Acessar o site e baixar as fotos dele",
         "description": "",
-        "id": "baixar-as-fotos-do-site;acessar-o-site-e-baixar-as-fotos-dele",
+        "id": "baixar-as-fotos-do-site;acessar-o-site-e-baixar-as-fotos-dele;;2",
         "type": "scenario",
-        "keyword": "Cenario",
+        "keyword": "Esquema do Cenario",
         "steps": [
           {
             "result": {
-              "duration": 6767443800,
+              "duration": 8697000000,
               "status": "passed"
             },
-            "line": 15,
-            "name": "que estou no site da Avita",
+            "line": 14,
+            "name": "que estou no site da Avita \"Chrome\"",
             "match": {
-              "location": "step.AcessarSiteStep.acessarSite()"
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 28
+                }
+              ],
+              "location": "step.AcessarSiteStep.acessarSite(java.lang.String)"
             },
             "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 95743400,
+              "duration": 236000000,
               "status": "passed"
             },
-            "line": 16,
+            "line": 15,
             "name": "fechar o aviso do covid",
             "match": {
               "location": "step.FecharAvisoStep.acessarSite()"
@@ -37,10 +43,10 @@
           },
           {
             "result": {
-              "duration": 36624670800,
+              "duration": 88535000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 16,
             "name": "seleciono morada morumbi",
             "match": {
               "location": "step.SelecionarMoradaMorumbiStep.selecionarMoradaMorumbi()"
@@ -49,10 +55,156 @@
           },
           {
             "result": {
-              "duration": 10649503400,
+              "duration": 10904000000,
               "status": "passed"
             },
-            "line": 18,
+            "line": 17,
+            "name": "fecho navegador",
+            "match": {
+              "location": "step.FecharNavegadorStep.fecharNavegador()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BaixarFotos"
+          },
+          {
+            "name": "@AcessarMoradaMorumbi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-18T10:56:14.568Z",
+        "line": 22,
+        "name": "Acessar o site e baixar as fotos dele",
+        "description": "",
+        "id": "baixar-as-fotos-do-site;acessar-o-site-e-baixar-as-fotos-dele;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7949000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que estou no site da Avita \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 28
+                }
+              ],
+              "location": "step.AcessarSiteStep.acessarSite(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 389000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "fechar o aviso do covid",
+            "match": {
+              "location": "step.FecharAvisoStep.acessarSite()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 90842000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "seleciono morada morumbi",
+            "match": {
+              "location": "step.SelecionarMoradaMorumbiStep.selecionarMoradaMorumbi()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 11709000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "fecho navegador",
+            "match": {
+              "location": "step.FecharNavegadorStep.fecharNavegador()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BaixarFotos"
+          },
+          {
+            "name": "@AcessarMoradaMorumbi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-18T10:58:05.463Z",
+        "line": 23,
+        "name": "Acessar o site e baixar as fotos dele",
+        "description": "",
+        "id": "baixar-as-fotos-do-site;acessar-o-site-e-baixar-as-fotos-dele;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7670000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que estou no site da Avita \"edge\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "edge",
+                  "offset": 28
+                }
+              ],
+              "location": "step.AcessarSiteStep.acessarSite(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "fechar o aviso do covid",
+            "match": {
+              "location": "step.FecharAvisoStep.acessarSite()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 90215000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "seleciono morada morumbi",
+            "match": {
+              "location": "step.SelecionarMoradaMorumbiStep.selecionarMoradaMorumbi()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 10943000000,
+              "status": "passed"
+            },
+            "line": 17,
             "name": "fecho navegador",
             "match": {
               "location": "step.FecharNavegadorStep.fecharNavegador()"
@@ -80,7 +232,7 @@
         "name": "@BaixarFotos",
         "type": "Tag",
         "location": {
-          "line": 4,
+          "line": 3,
           "column": 1
         }
       }

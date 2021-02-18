@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		features = "classpath:feature", 
 		tags = "@AcessarMoradaMorumbi", 
 		glue = "step", 
-		plugin = { 
+		plugin = {  
 				"pretty",
 				"html: target/cucumber-reports/cucumber.html",
 				"json: target/cucumber-reports/cucumber.json" 
